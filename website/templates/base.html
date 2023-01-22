@@ -17,7 +17,7 @@
         <title>{% block title %}Home{% endblock %}</title>
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar navbar-light" style="background-color: #D3D9E9;">
             <button
               class="navbar-toggler"
               type="button"
@@ -28,8 +28,15 @@
             </button>
             <div class="collapse navbar-collapse" id="navbar">
               <div class="navbar-nav">
+                <a class="navbar-brand" href="https://www.linkedin.com/in/david-sugai-96485a1a5/">
+                  <img src="../static/images/linkedin-logo.png" width="30" height="30" alt="linkedin-icon">
+                </a>
+                <a class="navbar-brand" href="https://github.com/davidsugai">
+                  <img src="../static/images/github-mark.png" width="30" height="30" alt="git-icon">
+                </a>
                 <a class="nav-item nav-link" id="home" href="/">Home</a>
-                <a class="nav-item nav-link" id="home" href="/contact">Contact</a>
+                <a class="nav-item nav-link" id="contact" href="/resume">Resume</a>
+                <a class="nav-item nav-link" id="resume" href="mailto:davidsugai@gmail.com">Contact</a>
               </div>
             </div>
         </nav>
